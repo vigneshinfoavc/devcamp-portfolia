@@ -1,0 +1,8 @@
+<h1> Portfolia Items </h1>
+
+<% @portfolia_items.each do |portfolia_item| %>
+  <p> <%= portfolia_item.title %> </p>
+  <p> <%= portfolia_item.subtitle %> </p>
+  <p> <%= portfolia_item.body %> </p>
+  <p> <%= image_tag portfolia_item.thum_image %> </p>
+<% end %>
